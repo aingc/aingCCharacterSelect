@@ -1,43 +1,80 @@
 <html>
-	<head>
-	  <link rel="stylesheet" href="carousel.css">
-	</head>
-	<body>
-		<div class="scene">
-		  <div class="carousel">
-			<div class="carousel__cell selected_carousel_cell">
-				<img src="./images/chars/1Barbarian.png" />
-			</div>
-			<div class="carousel__cell">
-				<img src="./images/chars/2Druid.png" />
-			</div>
-			<div class="carousel__cell">
-				<img src="./images/chars/3Fighter.png" />
-			</div>
-			<div class="carousel__cell">
-				<img src="./images/chars/4Ranger.png" />
-			</div>
-			<div class="carousel__cell">
-				<img src="./images/chars/5Bard.png" />
-			</div>
-			<div class="carousel__cell">
-				<img src="./images/chars/6Dwarf.png" />
-			</div>
-			<div class="carousel__cell">
-				<img src="./images/chars/7Monk.png" />
-			</div>
-			<div class="carousel__cell">
-				<img src="./images/chars/8Paladin.png" />
-			</div>
-			<div class="carousel__cell">
-				<img src="./images/chars/9Rogue.png" />
-			</div>
-		  </div>
-		</div>
-		<p style="text-align: center;">
-		  <button class="previous-button">Previous</button>
-		  <button class="next-button">Next</button>
-		</p>
-	</body>
-	<script src="carousel.js"></script>
+  <head>
+    <link rel="stylesheet" href="carousel.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amarante&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="char-select-container">
+      <div class="char-select-left">
+        <div class="scene">
+          <div class="carousel">
+            <div class="carousel__cell selected_carousel_cell">
+              <img src="./images/chars/1Barbarian.png" />
+            </div>
+            <div class="carousel__cell">
+              <img src="./images/chars/2Druid.png" />
+            </div>
+            <div class="carousel__cell">
+              <img src="./images/chars/3Fighter.png" />
+            </div>
+            <div class="carousel__cell">
+              <img src="./images/chars/4Ranger.png" />
+            </div>
+            <div class="carousel__cell">
+              <img src="./images/chars/5Bard.png" />
+            </div>
+            <div class="carousel__cell">
+              <img src="./images/chars/6Dwarf.png" />
+            </div>
+            <div class="carousel__cell">
+              <img src="./images/chars/7Monk.png" />
+            </div>
+            <div class="carousel__cell">
+              <img src="./images/chars/8Paladin.png" />
+            </div>
+            <div class="carousel__cell">
+              <img src="./images/chars/9Rogue.png" />
+            </div>
+          </div>
+        </div>
+        <p style="text-align: center">
+          <button class="previous-button">Previous</button>
+          <button class="next-button">Next</button>
+        </p>
+      </div>
+      <div class="char-select-right">
+        <h1 class="char-info-title">Ranger</h1>
+        <p class="char-info-title-description">
+          A warrior who combats threats on<br />
+          the edges of civilization.
+        </p>
+        <p class="char-info-description">
+          Warriors of the wilderness, rangers specialize in<br />
+          hunting the monsters that threaten the edges of<br />
+          civilization-humanoid raiders, rampaging beasts<br />
+          and monstronsities, terrible giants, and deadly<br />
+          dragons. They learn to track their quarry as a<br />
+          predator does, moving stealthily through the<br />
+          wilds and hiding themselves in brush and rubble.<br />
+          Rangers focus their combat training on<br />
+          techniques that are particularly useful against<br />
+          their specific favored foes.<br /><br />
+          Thanks to their familiarity with wilds,<br />
+          rangers acquire the ability to cast spells that<br />
+          harness nature's power, much as a druid does.<br />
+          Their spells, like their combat abilities,<br />
+          emphasize speed, stealth, and the hunt. A<br />
+          ranger's talents and abilities are honed with<br />
+          deadly focus on the grim task of protecting the<br />
+          borderlands.
+        </p>
+        <h1 class="char-confirm-selection">&#60; Select Class &#62;</h1>
+      </div>
+    </div>
+  </body>
+  <script src="carousel.js"></script>
 </html>
