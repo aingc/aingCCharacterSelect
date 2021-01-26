@@ -34,7 +34,7 @@ body {
   font-size: 36px;
   text-align: center;
   color: white;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .char-info-title-description {
@@ -51,6 +51,15 @@ body {
   text-align: left;
   padding-left: 110px;
   font-weight: bold;
+}
+
+.char-confirm-selection {
+  color: rgb(209, 180, 102);
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px;
 }
 
 .scene {
