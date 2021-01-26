@@ -27,6 +27,7 @@ body {
   background-repeat: no-repeat;
   background-position: left center;
   background-color: hsl(0, 0%, 0%);
+  max-width: 423.5px;
 }
 
 .char-info-title {
@@ -37,9 +38,18 @@ body {
 }
 
 .char-info-title-description {
+  font-size: 16px;
   text-align: center;
   color: rgb(47, 90, 208);
   padding: 20px;
+  font-weight: bold;
+}
+
+.char-info-description {
+  font-size: 12.5px;
+  color: rgb(158, 158, 158);
+  text-align: left;
+  padding-left: 110px;
   font-weight: bold;
 }
 
