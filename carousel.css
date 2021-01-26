@@ -15,12 +15,32 @@ body {
 
 .char-select-left {
   object-fit: contain;
-  width: 60%;
+  width: 65%;
 }
 
 .char-select-right {
   object-fit: contain;
-  width: 40%;
+  width: 35%;
+  min-height: 380px;
+  font-family: 'Amarante', cursive;
+  background-image: url('./images/rangerSymbol.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.char-info-title {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.char-info-title-description {
+  text-align: center;
+  color: rgb(47, 90, 208);
+  padding: 20px;
+  font-weight: bold;
 }
 
 .scene {
