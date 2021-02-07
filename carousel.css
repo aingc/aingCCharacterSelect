@@ -23,11 +23,46 @@ body {
   width: 35%;
   min-height: 380px;
   font-family: 'Amarante', cursive;
-  background-image: url('./images/rangerSymbol.png');
   background-repeat: no-repeat;
   background-position: left center;
   background-color: hsl(0, 0%, 0%);
   max-width: 423.5px;
+}
+
+.char-card-barbarian {
+  background-image: url('./images/fighterSymbol.png');
+}
+
+.char-card-druid {
+  background-image: url('./images/fighterSymbol.png');
+}
+
+.char-card-fighter {
+  background-image: url('./images/fighterSymbol.png');
+}
+
+.char-card-ranger {
+  background-image: url('./images/rangerSymbol.png');
+}
+
+.char-card-bard {
+  background-image: url('./images/rangerSymbol.png');
+}
+
+.char-card-dwarf {
+  background-image: url('./images/rangerSymbol.png');
+}
+
+.char-card-monk {
+  background-image: url('./images/monkSymbol.png');
+}
+
+.char-card-paladin {
+  background-image: url('./images/paladinSymbol.png');
+}
+
+.char-card-rogue {
+  background-image: url('./images/rogueSymbol.png');
 }
 
 .char-info-title {
@@ -51,6 +86,8 @@ body {
   text-align: left;
   padding-left: 110px;
   font-weight: bold;
+  overflow-wrap: break-word;
+  width: 30.2em;
 }
 
 .char-confirm-selection {
