@@ -65,6 +65,42 @@ body {
   background-image: url('./images/rogueSymbol.png');
 }
 
+#char0 {
+  display: block;
+}
+
+#char1 {
+  display: none;
+}
+
+#char2 {
+  display: none;
+}
+
+#char3 {
+  display: none;
+}
+
+#char4 {
+  display: none;
+}
+
+#char5 {
+  display: none;
+}
+
+#char6 {
+  display: none;
+}
+
+#char7 {
+  display: none;
+}
+
+#char8 {
+  display: none;
+}
+
 .char-info-title {
   font-size: 36px;
   text-align: center;
@@ -78,6 +114,9 @@ body {
   color: rgb(47, 90, 208);
   padding: 20px;
   font-weight: bold;
+  overflow-wrap: break-word;
+  width: 18em;
+  margin: 0 auto;
 }
 
 .char-info-description {
