@@ -1,6 +1,8 @@
 let carousel = document.querySelector('.carousel');
 let cellCount = 9;
 let selectedIndex = 0;
+let charCardDescriptions = document.getElementsByName('single-char-card');
+let charCardDescArray = Array.from(charCardDescriptions);
 
 const mod = (n, m) => {
   return ((n % m) + m) % m;
@@ -41,6 +43,17 @@ const adjustCharCardClass = (charId) => {
       currentCharCard.classList.add('char-card-rogue');
       break;
   }
+  filterCharCardDescriptions(charId);
+};
+
+const filterCharCardDescriptions = (charId) => {
+  charCardDescArray.filter((e) => e.id === `char${charId}`)[0].style.display =
+    'block';
+  charCardDescArray
+    .filter((e) => e.id !== `char${charId}`)
+    .forEach((e) => {
+      e.style.display = 'none';
+    });
 };
 
 const rotateCarousel = () => {
